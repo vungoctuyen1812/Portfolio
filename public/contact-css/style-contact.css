@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto Mono', monospace !important;
+}
+
+body{
+	color: white;
+	background-image: url(https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 1.5;
+	max-width: 350px;
+	width: 100%;
+	background: #2b2b2b;
+	padding: 25px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px rgba(1, 120, 230, .7)
+
+}
+
+.wrapper h2{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+}
+
+.wrapper .input-field{
+	margin-bottom: 10px;
+}
+
+.wrapper .input-field input[type="text"],
+.wrapper textarea{
+	width: 100%;
+	border: 1px solid #0178e6;
+	padding: 10px;
+	background: #d5d5d5;
+}
+
+.wrapper textarea{
+	height: 100px;
+	resize: none;
+}
+
+.wrapper .btn input[type="submit"]{
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	background: #0178e6;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
+

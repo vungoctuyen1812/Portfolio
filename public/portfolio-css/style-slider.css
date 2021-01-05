@@ -1,0 +1,26 @@
+.photo-wrapper{
+	display: flex;
+	justify-content: center;
+	justify-content: center;
+}
+
+.photo {
+	display: relative;
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+	margin: 30px;
+}
+.photo img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	background-size: cover;
+	background-position: center;
+	transition: all .5s;
+}
+
+.photo:hover img {
+	transform: scale(1.4);
+}
+
